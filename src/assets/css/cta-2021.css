@@ -1,0 +1,27 @@
+.cta-2021 {
+    color: var(--branco);
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.55), 
+      rgba(0, 0, 0, 0.55)
+    ),
+    url('../img/livros.jpg');
+    /* background-position: center; */
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 3.5rem;
+    padding-bottom: 4rem;
+
+}
+
+.titulo-medio--cta-2021 {
+    color: var(--branco);
+    margin-bottom: 2.5rem;
+}
+
+.botao--cta-2021 {
+    margin-top: 1.6rem;
+    background: var(--primary);
+}

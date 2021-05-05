@@ -1,0 +1,23 @@
+.faq {
+    background: #e4e7eb;
+}
+.botao--faq {
+    text-align: center;
+    position: relative;
+    padding-left: 3.5rem;
+    margin: 0 auto;
+    display: block ;
+    max-width: 362.55px;
+}
+
+.icone-whatsapp{
+    background: url('../img/whatsapp.svg');
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: .25rem;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    transform: translate3d(0, -50%, 0);
+    left: 1.5rem;
+}

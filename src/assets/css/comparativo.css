@@ -1,0 +1,75 @@
+.comparativo {
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+.comparativo__tabela {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.comparativo__cabecalho {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .75rem;
+}
+
+.comparativo__titulo-tabela {
+    font-family: var(--ff-titulo);
+    font-size: .875rem;
+    color: var(--accent);
+    width: 50%;
+}
+
+.comparativo__linha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: solid 2px var(--cinza-claro);
+    padding: .75rem 0;
+}
+
+.comparativo__linha:last-child {
+    border-bottom: solid 2px var(--cinza-claro);
+}
+
+.comparativo__item {
+    font-size: .875rem;
+    line-height: 1.2;
+    width: 33%;
+    margin: 0 1.5rem;
+}
+
+.comparativo__icone {
+    height: 16px;
+}
+
+.comparativo__total {
+    width: 33%;
+}
+
+.comparativo__preco {
+    font-family: var(--ff-titulo);
+    font-size: 1rem;
+    color: var(--accent);
+}
+
+.comparativo__preco--primary {
+    color: var(--primary);
+}
+
+.comparativo__botao {
+    color: var(--branco);
+    background: var(--primary);
+}
+
+@media (min-width:768px) {
+    .comparativo__item {
+        margin: 0 3rem;
+    }
+
+    .comparativo__total {
+        margin: 0 1.5rem;
+    }
+}

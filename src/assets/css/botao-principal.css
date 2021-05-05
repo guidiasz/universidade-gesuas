@@ -1,0 +1,21 @@
+.botao--principal {
+    position: fixed;
+    bottom: 16px;
+    left: 0;
+    right: 0;
+    padding-right: 0;
+    padding-left: 0;
+    margin: 0 auto;
+    width: calc(100% - 32px);
+    z-index: 999;
+}
+
+@media (min-width:768px) {
+    .botao--principal {
+        position: initial;
+        width: initial;
+        margin-top: 1.6rem;
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+}
